@@ -10,23 +10,23 @@ This project implements an automated control system using a microcontroller, fea
 
 ### - Sensor Integration:
 
--- Hall effect sensor for positional feedback.
+-  Hall effect sensor for positional feedback.
 
--- Photoresistor for light-based system interruption.
+-  Photoresistor for light-based system interruption.
 
--- Emergency stop sensor for safety.
+-  Emergency stop sensor for safety.
 
--- Voltage sensor for power monitoring.
+-  Voltage sensor for power monitoring.
 
 
 ### - Automatic and Manual Modes:
 
--- Supports automatic operation based on pre-configured parameters.
+-  Supports automatic operation based on pre-configured parameters.
 
--- Manual override for user intervention.
+-  Manual override for user intervention.
 
 
--- **Real-Time Monitoring:** Outputs system status and operational logs via serial communication.
+-  **Real-Time Monitoring:** Outputs system status and operational logs via serial communication.
 
 
 ## Hardware Pin Mapping
@@ -54,13 +54,13 @@ This project implements an automated control system using a microcontroller, fea
 
 ### - Loop Functions:
 
--- **PWM Control:** Manages motor speed and direction based on sensor data.
+-  **PWM Control:** Manages motor speed and direction based on sensor data.
 
--- **Emergency Handling:** Stops the system when safety conditions are met.
+-  **Emergency Handling:** Stops the system when safety conditions are met.
 
--- **Data Logging:** Provides real-time feedback via serial communication.
+-  **Data Logging:** Provides real-time feedback via serial communication.
 
--- **EEPROM Updates:** Ensures operational data persistence.
+-  **EEPROM Updates:** Ensures operational data persistence.
 
 
 
