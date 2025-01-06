@@ -1,4 +1,4 @@
-# Automated Control System with PWM and Sensor Integration
+9# Automated Control System with PWM and Sensor Integration
 
 This project implements an automated control system using a microcontroller, featuring PWM modulation, EEPROM data storage, and various sensor integrations. The system is designed to manage motor control, safety mechanisms, and dynamic adjustments based on real-time sensor readings.
 
@@ -31,6 +31,24 @@ This project implements an automated control system using a microcontroller, fea
 
 
 ## Hardware Pin Mapping
+
+| **Pin** | **Function**            |
+|---------|-------------------------|
+| D2      | Execute Button          |
+| D4      | Status LED              |
+| D5      | Photoresistor Switch    |
+| D6      | PWM Output              |
+| D7      | PWM Switch              |
+| D8      | Save Settings Switch    |
+| D9      | Motor 2 Control         |
+| D10     | Motor 1 Control         |
+| D11     | Hall Sensor             |
+| D12     | 24V Power Control       |
+| A1      | Stop Sensor             |
+| A2      | Photoresistor           |
+| A3      | Receiver 2              |
+| A4      | Receiver 1              |
+| A5      | Voltage Sensor          |
 
 - **Execute Button:** D2
 - **Status LED:** D4
