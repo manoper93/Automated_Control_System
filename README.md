@@ -33,7 +33,7 @@ This project implements an automated control system using a microcontroller, fea
 ## Hardware Pin Mapping
 
 | **Pin** | **Function**            |
-|---------|-------------------------|
+|:-------:|:-----------------------:|
 | D2      | Execute Button          |
 | D4      | Status LED              |
 | D5      | Photoresistor Switch    |
