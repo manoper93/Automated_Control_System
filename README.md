@@ -1,4 +1,4 @@
-#Automated Control System with PWM and Sensor Integration
+# Automated Control System with PWM and Sensor Integration
 
 This project implements an automated control system using a microcontroller, featuring PWM modulation, EEPROM data storage, and various sensor integrations. The system is designed to manage motor control, safety mechanisms, and dynamic adjustments based on real-time sensor readings.
 
@@ -10,7 +10,7 @@ EEPROM Storage: Saves and retrieves operational data to ensure continuity across
 
 Sensor Integration:
 
-Hall effect sensor for positional feedback.
+- Hall effect sensor for positional feedback.
 
 Photoresistor for light-based system interruption.
 
