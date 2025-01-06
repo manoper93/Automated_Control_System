@@ -46,25 +46,9 @@ This project implements an automated control system using a microcontroller, fea
 | D12     | 24V Power Control       |
 | A1      | Stop Sensor             |
 | A2      | Photoresistor           |
-| A3      | Receiver 2              |
-| A4      | Receiver 1              |
+| A3      | Receiver ch2            |
+| A4      | Receiver ch1            |
 | A5      | Voltage Sensor          |
-
-- **Execute Button:** D2
-- **Status LED:** D4
-- **Photoresistor Switch:** D5
-- **PWM Output:** D6
-- **PWM Switch:** D7
-- **Save Settings Switch:** D8
-- **Motor 2 Control:** D9
-- **Motor 1 Control:** D10
-- **Hall Sensor:** D11
-- **24V Power Control:** D12
-- **Stop Sensor:** A1
-- **Photoresistor:** A2
-- **Receiver ch2:** A3
-- **Receiver ch1:** A4
-- **Voltage Sensor:** A5
 
 
 ## Code Overview
