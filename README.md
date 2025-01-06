@@ -4,9 +4,9 @@ This project implements an automated control system using a microcontroller, fea
 
 ## Features
 
-PWM Control: Dynamically adjusts motor power based on system states and sensor feedback.
+- PWM Control: Dynamically adjusts motor power based on system states and sensor feedback.
 
-EEPROM Storage: Saves and retrieves operational data to ensure continuity across power cycles.
+- EEPROM Storage: Saves and retrieves operational data to ensure continuity across power cycles.
 
 ### Sensor Integration:
 
@@ -26,7 +26,7 @@ EEPROM Storage: Saves and retrieves operational data to ensure continuity across
 - Manual override for user intervention.
 
 
-Real-Time Monitoring: Outputs system status and operational logs via serial communication.
+- Real-Time Monitoring: Outputs system status and operational logs via serial communication.
 
 
 ## Hardware Pin Mapping
@@ -50,17 +50,17 @@ Real-Time Monitoring: Outputs system status and operational logs via serial comm
 
 ## Code Overview
 
-### Setup Phase: Initializes pins, reads EEPROM data, and sets default states.
+- Setup Phase: Initializes pins, reads EEPROM data, and sets default states.
 
 ###  Loop Functions:
 
-PWM Control: Manages motor speed and direction based on sensor data.
+- PWM Control: Manages motor speed and direction based on sensor data.
 
-Emergency Handling: Stops the system when safety conditions are met.
+- Emergency Handling: Stops the system when safety conditions are met.
 
-Data Logging: Provides real-time feedback via serial communication.
+- Data Logging: Provides real-time feedback via serial communication.
 
-EEPROM Updates: Ensures operational data persistence.
+- EEPROM Updates: Ensures operational data persistence.
 
 
 
