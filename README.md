@@ -2,71 +2,57 @@
 
 This project implements an automated control system using a microcontroller, featuring PWM modulation, EEPROM data storage, and various sensor integrations. The system is designed to manage motor control, safety mechanisms, and dynamic adjustments based on real-time sensor readings.
 
-Features
+## Features
 
 PWM Control: Dynamically adjusts motor power based on system states and sensor feedback.
 
 EEPROM Storage: Saves and retrieves operational data to ensure continuity across power cycles.
 
-Sensor Integration:
+### Sensor Integration:
 
 - Hall effect sensor for positional feedback.
 
-Photoresistor for light-based system interruption.
+- Photoresistor for light-based system interruption.
 
-Emergency stop sensor for safety.
+- Emergency stop sensor for safety.
 
-Voltage sensor for power monitoring.
+- Voltage sensor for power monitoring.
 
 
-Automatic and Manual Modes:
+### Automatic and Manual Modes:
 
-Supports automatic operation based on pre-configured parameters.
+- Supports automatic operation based on pre-configured parameters.
 
-Manual override for user intervention.
+- Manual override for user intervention.
 
 
 Real-Time Monitoring: Outputs system status and operational logs via serial communication.
 
 
-Hardware Pin Mapping
+## Hardware Pin Mapping
 
-Execute Button: D2
-
-Status LED: D4
-
-Photoresistor Switch: D5
-
-PWM Output: D6
-
-PWM Switch: D7
-
-Save Settings Switch: D8
-
-Motor 2 Control: D9
-
-Motor 1 Control: D10
-
-Hall Sensor: D11
-
-24V Power Control: D12
-
-Stop Sensor: A1
-
-Photoresistor: A2
-
-Receiver 2: A3
-
-Receiver 1: A4
-
-Voltage Sensor: A5
+- Execute Button: D2
+- Status LED: D4
+- Photoresistor Switch: D5
+- PWM Output: D6
+- PWM Switch: D7
+- Save Settings Switch: D8
+- Motor 2 Control: D9
+- Motor 1 Control: D10
+- Hall Sensor: D11
+- 24V Power Control: D12
+- Stop Sensor: A1
+- Photoresistor: A2
+- Receiver 2: A3
+- Receiver 1: A4
+- Voltage Sensor: A5
 
 
-Code Overview
+## Code Overview
 
-Setup Phase: Initializes pins, reads EEPROM data, and sets default states.
+### Setup Phase: Initializes pins, reads EEPROM data, and sets default states.
 
-Loop Functions:
+###  Loop Functions:
 
 PWM Control: Manages motor speed and direction based on sensor data.
 
@@ -78,7 +64,7 @@ EEPROM Updates: Ensures operational data persistence.
 
 
 
-How to Use
+## How to Use
 
 1. Initial Setup: Connect components according to the hardware pin mapping.
 
@@ -93,7 +79,7 @@ How to Use
 
 
 
-Applications
+## Applications
 
 This code can be adapted for various applications, including automated gates, conveyor systems, or other motorized setups requiring precise control and safety mechanisms.
 
