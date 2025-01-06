@@ -8,7 +8,7 @@ This project implements an automated control system using a microcontroller, fea
 
 - **EEPROM Storage:** Saves and retrieves operational data to ensure continuity across power cycles.
 
-### - Sensor Integration:
+- ### Sensor Integration:
 
 -  Hall effect sensor for positional feedback.
 
