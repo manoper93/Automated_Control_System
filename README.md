@@ -26,7 +26,8 @@ This project implements an automated control system using a microcontroller, fea
   - Manual override for user intervention.
 
 
-- **Real-Time Monitoring:** Outputs system status and operational logs via serial communication.
+- ### Real-Time Monitoring: 
+  - Outputs system status and operational logs via serial communication.
 
 
 ## Hardware Pin Mapping
