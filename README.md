@@ -84,6 +84,6 @@ This code can be adapted for various applications, including automated gates, co
 
 ## Github link
 
-[Automated_Control_System](https://github.com/manoper93/Automated_Control_System/ "Github")
+[Automated_Control_System](https://github.com/manoper93/Automated_Control_System/)
 
 
