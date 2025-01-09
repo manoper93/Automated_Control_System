@@ -81,3 +81,7 @@ This code can be adapted for various applications, including automated gates, co
 
 ![20201229_190907](https://github.com/user-attachments/assets/34eb36d3-d4e2-4830-8478-0801c2f72f7b)
 ![20201229_191403](https://github.com/user-attachments/assets/3ce568cd-cd64-4ef8-afa7-02ad9b83d453)
+
+## Github link
+
+https://github.com/manoper93/Automated_Control_System/
